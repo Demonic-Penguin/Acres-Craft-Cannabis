@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A120D35E1D241BD800F9D53F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120D35D1D241BD800F9D53F /* AppDelegate.swift */; };
+		A120D3601D241BD800F9D53F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120D35F1D241BD800F9D53F /* LoginViewController.swift */; };
+		A120D3631D241BD800F9D53F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A120D3611D241BD800F9D53F /* Main.storyboard */; };
+		A120D3661D241BD800F9D53F /* Acres_Craft_Cannabis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A120D3641D241BD800F9D53F /* Acres_Craft_Cannabis.xcdatamodeld */; };
+		A120D3681D241BD800F9D53F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A120D3671D241BD800F9D53F /* Assets.xcassets */; };
+		A120D36B1D241BD800F9D53F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A120D3691D241BD800F9D53F /* LaunchScreen.storyboard */; };
+		A120D3761D241BD800F9D53F /* Acres_Craft_CannabisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120D3751D241BD800F9D53F /* Acres_Craft_CannabisTests.swift */; };
+		A120D3811D241BD800F9D53F /* Acres_Craft_CannabisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120D3801D241BD800F9D53F /* Acres_Craft_CannabisUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A120D3721D241BD800F9D53F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A120D3521D241BD700F9D53F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A120D3591D241BD700F9D53F;
+			remoteInfo = "Acres Craft Cannabis";
+		};
+		A120D37D1D241BD800F9D53F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A120D3521D241BD700F9D53F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A120D3591D241BD700F9D53F;
+			remoteInfo = "Acres Craft Cannabis";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A120D35A1D241BD700F9D53F /* Acres Craft Cannabis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Acres Craft Cannabis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A120D35D1D241BD800F9D53F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A120D35F1D241BD800F9D53F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A120D3621D241BD800F9D53F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A120D3651D241BD800F9D53F /* Acres_Craft_Cannabis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Acres_Craft_Cannabis.xcdatamodel; sourceTree = "<group>"; };
+		A120D3671D241BD800F9D53F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A120D36A1D241BD800F9D53F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A120D36C1D241BD800F9D53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A120D3711D241BD800F9D53F /* Acres Craft CannabisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acres Craft CannabisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A120D3751D241BD800F9D53F /* Acres_Craft_CannabisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acres_Craft_CannabisTests.swift; sourceTree = "<group>"; };
+		A120D3771D241BD800F9D53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A120D37C1D241BD800F9D53F /* Acres Craft CannabisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acres Craft CannabisUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A120D3801D241BD800F9D53F /* Acres_Craft_CannabisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acres_Craft_CannabisUITests.swift; sourceTree = "<group>"; };
+		A120D3821D241BD800F9D53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A120D3571D241BD700F9D53F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A120D36E1D241BD800F9D53F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A120D3791D241BD800F9D53F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A120D3511D241BD700F9D53F = {
+			isa = PBXGroup;
+			children = (
+				A120D35C1D241BD800F9D53F /* Acres Craft Cannabis */,
+				A120D3741D241BD800F9D53F /* Acres Craft CannabisTests */,
+				A120D37F1D241BD800F9D53F /* Acres Craft CannabisUITests */,
+				A120D35B1D241BD700F9D53F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A120D35B1D241BD700F9D53F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A120D35A1D241BD700F9D53F /* Acres Craft Cannabis.app */,
+				A120D3711D241BD800F9D53F /* Acres Craft CannabisTests.xctest */,
+				A120D37C1D241BD800F9D53F /* Acres Craft CannabisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A120D35C1D241BD800F9D53F /* Acres Craft Cannabis */ = {
+			isa = PBXGroup;
+			children = (
+				A120D35D1D241BD800F9D53F /* AppDelegate.swift */,
+				A120D35F1D241BD800F9D53F /* LoginViewController.swift */,
+				A120D3611D241BD800F9D53F /* Main.storyboard */,
+				A120D3671D241BD800F9D53F /* Assets.xcassets */,
+				A120D3691D241BD800F9D53F /* LaunchScreen.storyboard */,
+				A120D36C1D241BD800F9D53F /* Info.plist */,
+				A120D3641D241BD800F9D53F /* Acres_Craft_Cannabis.xcdatamodeld */,
+			);
+			path = "Acres Craft Cannabis";
+			sourceTree = "<group>";
+		};
+		A120D3741D241BD800F9D53F /* Acres Craft CannabisTests */ = {
+			isa = PBXGroup;
+			children = (
+				A120D3751D241BD800F9D53F /* Acres_Craft_CannabisTests.swift */,
+				A120D3771D241BD800F9D53F /* Info.plist */,
+			);
+			path = "Acres Craft CannabisTests";
+			sourceTree = "<group>";
+		};
+		A120D37F1D241BD800F9D53F /* Acres Craft CannabisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A120D3801D241BD800F9D53F /* Acres_Craft_CannabisUITests.swift */,
+				A120D3821D241BD800F9D53F /* Info.plist */,
+			);
+			path = "Acres Craft CannabisUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A120D3591D241BD700F9D53F /* Acres Craft Cannabis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A120D3851D241BD800F9D53F /* Build configuration list for PBXNativeTarget "Acres Craft Cannabis" */;
+			buildPhases = (
+				A120D3561D241BD700F9D53F /* Sources */,
+				A120D3571D241BD700F9D53F /* Frameworks */,
+				A120D3581D241BD700F9D53F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Acres Craft Cannabis";
+			productName = "Acres Craft Cannabis";
+			productReference = A120D35A1D241BD700F9D53F /* Acres Craft Cannabis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A120D3701D241BD800F9D53F /* Acres Craft CannabisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A120D3881D241BD800F9D53F /* Build configuration list for PBXNativeTarget "Acres Craft CannabisTests" */;
+			buildPhases = (
+				A120D36D1D241BD800F9D53F /* Sources */,
+				A120D36E1D241BD800F9D53F /* Frameworks */,
+				A120D36F1D241BD800F9D53F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A120D3731D241BD800F9D53F /* PBXTargetDependency */,
+			);
+			name = "Acres Craft CannabisTests";
+			productName = "Acres Craft CannabisTests";
+			productReference = A120D3711D241BD800F9D53F /* Acres Craft CannabisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A120D37B1D241BD800F9D53F /* Acres Craft CannabisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A120D38B1D241BD800F9D53F /* Build configuration list for PBXNativeTarget "Acres Craft CannabisUITests" */;
+			buildPhases = (
+				A120D3781D241BD800F9D53F /* Sources */,
+				A120D3791D241BD800F9D53F /* Frameworks */,
+				A120D37A1D241BD800F9D53F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A120D37E1D241BD800F9D53F /* PBXTargetDependency */,
+			);
+			name = "Acres Craft CannabisUITests";
+			productName = "Acres Craft CannabisUITests";
+			productReference = A120D37C1D241BD800F9D53F /* Acres Craft CannabisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A120D3521D241BD700F9D53F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Demonic Penguin";
+				TargetAttributes = {
+					A120D3591D241BD700F9D53F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A120D3701D241BD800F9D53F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A120D3591D241BD700F9D53F;
+					};
+					A120D37B1D241BD800F9D53F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A120D3591D241BD700F9D53F;
+					};
+				};
+			};
+			buildConfigurationList = A120D3551D241BD700F9D53F /* Build configuration list for PBXProject "Acres Craft Cannabis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A120D3511D241BD700F9D53F;
+			productRefGroup = A120D35B1D241BD700F9D53F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A120D3591D241BD700F9D53F /* Acres Craft Cannabis */,
+				A120D3701D241BD800F9D53F /* Acres Craft CannabisTests */,
+				A120D37B1D241BD800F9D53F /* Acres Craft CannabisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A120D3581D241BD700F9D53F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A120D36B1D241BD800F9D53F /* LaunchScreen.storyboard in Resources */,
+				A120D3681D241BD800F9D53F /* Assets.xcassets in Resources */,
+				A120D3631D241BD800F9D53F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A120D36F1D241BD800F9D53F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A120D37A1D241BD800F9D53F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A120D3561D241BD700F9D53F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A120D3601D241BD800F9D53F /* LoginViewController.swift in Sources */,
+				A120D3661D241BD800F9D53F /* Acres_Craft_Cannabis.xcdatamodeld in Sources */,
+				A120D35E1D241BD800F9D53F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A120D36D1D241BD800F9D53F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A120D3761D241BD800F9D53F /* Acres_Craft_CannabisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A120D3781D241BD800F9D53F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A120D3811D241BD800F9D53F /* Acres_Craft_CannabisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A120D3731D241BD800F9D53F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A120D3591D241BD700F9D53F /* Acres Craft Cannabis */;
+			targetProxy = A120D3721D241BD800F9D53F /* PBXContainerItemProxy */;
+		};
+		A120D37E1D241BD800F9D53F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A120D3591D241BD700F9D53F /* Acres Craft Cannabis */;
+			targetProxy = A120D37D1D241BD800F9D53F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A120D3611D241BD800F9D53F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A120D3621D241BD800F9D53F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A120D3691D241BD800F9D53F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A120D36A1D241BD800F9D53F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A120D3831D241BD800F9D53F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A120D3841D241BD800F9D53F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A120D3861D241BD800F9D53F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Acres Craft Cannabis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demonicpenguin.Acres-Craft-Cannabis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A120D3871D241BD800F9D53F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Acres Craft Cannabis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demonicpenguin.Acres-Craft-Cannabis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A120D3891D241BD800F9D53F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Acres Craft CannabisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demonicpenguin.Acres-Craft-CannabisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acres Craft Cannabis.app/Acres Craft Cannabis";
+			};
+			name = Debug;
+		};
+		A120D38A1D241BD800F9D53F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Acres Craft CannabisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demonicpenguin.Acres-Craft-CannabisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acres Craft Cannabis.app/Acres Craft Cannabis";
+			};
+			name = Release;
+		};
+		A120D38C1D241BD800F9D53F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Acres Craft CannabisUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demonicpenguin.Acres-Craft-CannabisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Acres Craft Cannabis";
+			};
+			name = Debug;
+		};
+		A120D38D1D241BD800F9D53F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Acres Craft CannabisUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demonicpenguin.Acres-Craft-CannabisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Acres Craft Cannabis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A120D3551D241BD700F9D53F /* Build configuration list for PBXProject "Acres Craft Cannabis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A120D3831D241BD800F9D53F /* Debug */,
+				A120D3841D241BD800F9D53F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A120D3851D241BD800F9D53F /* Build configuration list for PBXNativeTarget "Acres Craft Cannabis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A120D3861D241BD800F9D53F /* Debug */,
+				A120D3871D241BD800F9D53F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A120D3881D241BD800F9D53F /* Build configuration list for PBXNativeTarget "Acres Craft CannabisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A120D3891D241BD800F9D53F /* Debug */,
+				A120D38A1D241BD800F9D53F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A120D38B1D241BD800F9D53F /* Build configuration list for PBXNativeTarget "Acres Craft CannabisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A120D38C1D241BD800F9D53F /* Debug */,
+				A120D38D1D241BD800F9D53F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A120D3641D241BD800F9D53F /* Acres_Craft_Cannabis.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A120D3651D241BD800F9D53F /* Acres_Craft_Cannabis.xcdatamodel */,
+			);
+			currentVersion = A120D3651D241BD800F9D53F /* Acres_Craft_Cannabis.xcdatamodel */;
+			path = Acres_Craft_Cannabis.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A120D3521D241BD700F9D53F /* Project object */;
+}
