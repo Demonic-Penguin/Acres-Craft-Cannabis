@@ -15,7 +15,11 @@
 		A120D36B1D241BD800F9D53F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A120D3691D241BD800F9D53F /* LaunchScreen.storyboard */; };
 		A120D3761D241BD800F9D53F /* Acres_Craft_CannabisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120D3751D241BD800F9D53F /* Acres_Craft_CannabisTests.swift */; };
 		A120D3811D241BD800F9D53F /* Acres_Craft_CannabisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A120D3801D241BD800F9D53F /* Acres_Craft_CannabisUITests.swift */; };
-		A1E6BF881D2425F700D48815 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A1E6BF871D2425F700D48815 /* README.md */; };
+		D3DCBF631D3821B700C0659C /* Acres Icon_180.png in Resources */ = {isa = PBXBuildFile; fileRef = D3DCBF621D3821B700C0659C /* Acres Icon_180.png */; };
+		D3DCBF651D38222200C0659C /* Acres Icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = D3DCBF641D38222200C0659C /* Acres Icon_120.png */; };
+		D3DCBF671D3822CC00C0659C /* Acres Icon_87.png in Resources */ = {isa = PBXBuildFile; fileRef = D3DCBF661D3822CC00C0659C /* Acres Icon_87.png */; };
+		D3DCBF691D3822D000C0659C /* Acres Icon_80.png in Resources */ = {isa = PBXBuildFile; fileRef = D3DCBF681D3822D000C0659C /* Acres Icon_80.png */; };
+		D3DCBF6D1D38233400C0659C /* Acres Icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = D3DCBF6C1D38233400C0659C /* Acres Icon_57.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,11 @@
 		A120D3801D241BD800F9D53F /* Acres_Craft_CannabisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acres_Craft_CannabisUITests.swift; sourceTree = "<group>"; };
 		A120D3821D241BD800F9D53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1E6BF871D2425F700D48815 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D3DCBF621D3821B700C0659C /* Acres Icon_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acres Icon_180.png"; sourceTree = "<group>"; };
+		D3DCBF641D38222200C0659C /* Acres Icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acres Icon_120.png"; sourceTree = "<group>"; };
+		D3DCBF661D3822CC00C0659C /* Acres Icon_87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acres Icon_87.png"; sourceTree = "<group>"; };
+		D3DCBF681D3822D000C0659C /* Acres Icon_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acres Icon_80.png"; sourceTree = "<group>"; };
+		D3DCBF6C1D38233400C0659C /* Acres Icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Acres Icon_57.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +115,7 @@
 				A120D3611D241BD800F9D53F /* Main.storyboard */,
 				A1E6BF871D2425F700D48815 /* README.md */,
 				A120D3671D241BD800F9D53F /* Assets.xcassets */,
+				D3DCBF611D3821A900C0659C /* images */,
 				A120D3691D241BD800F9D53F /* LaunchScreen.storyboard */,
 				A120D36C1D241BD800F9D53F /* Info.plist */,
 				A120D3641D241BD800F9D53F /* Acres_Craft_Cannabis.xcdatamodeld */,
@@ -129,6 +139,18 @@
 				A120D3821D241BD800F9D53F /* Info.plist */,
 			);
 			path = "Acres Craft CannabisUITests";
+			sourceTree = "<group>";
+		};
+		D3DCBF611D3821A900C0659C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D3DCBF6C1D38233400C0659C /* Acres Icon_57.png */,
+				D3DCBF681D3822D000C0659C /* Acres Icon_80.png */,
+				D3DCBF661D3822CC00C0659C /* Acres Icon_87.png */,
+				D3DCBF641D38222200C0659C /* Acres Icon_120.png */,
+				D3DCBF621D3821B700C0659C /* Acres Icon_180.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +221,7 @@
 				TargetAttributes = {
 					A120D3591D241BD700F9D53F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZQBR6R7S47;
 					};
 					A120D3701D241BD800F9D53F = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -235,9 +258,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3DCBF631D3821B700C0659C /* Acres Icon_180.png in Resources */,
 				A120D36B1D241BD800F9D53F /* LaunchScreen.storyboard in Resources */,
+				D3DCBF651D38222200C0659C /* Acres Icon_120.png in Resources */,
 				A120D3681D241BD800F9D53F /* Assets.xcassets in Resources */,
 				A120D3631D241BD800F9D53F /* Main.storyboard in Resources */,
+				D3DCBF691D3822D000C0659C /* Acres Icon_80.png in Resources */,
+				D3DCBF6D1D38233400C0659C /* Acres Icon_57.png in Resources */,
+				D3DCBF671D3822CC00C0659C /* Acres Icon_87.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +292,6 @@
 			files = (
 				A120D3601D241BD800F9D53F /* LoginViewController.swift in Sources */,
 				A120D3661D241BD800F9D53F /* Acres_Craft_Cannabis.xcdatamodeld in Sources */,
-				A1E6BF881D2425F700D48815 /* README.md in Sources */,
 				A120D35E1D241BD800F9D53F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,10 +434,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				INFOPLIST_FILE = "Acres Craft Cannabis/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.demonicpenguin.Acres-Craft-Cannabis";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -418,10 +450,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				INFOPLIST_FILE = "Acres Craft Cannabis/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.demonicpenguin.Acres-Craft-Cannabis";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
